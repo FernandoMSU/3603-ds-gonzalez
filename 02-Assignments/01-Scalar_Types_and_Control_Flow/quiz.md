@@ -9,7 +9,7 @@ Try every question on your own first — the Answer Key is at the bottom, no pee
 ## Section A — Scalar Types
 
 **1.** (Multiple Choice) What does `type(True)` return?
-A) `bool`  B) `int`  C) `str`  D) `NoneType`
+**A) `bool`**  B) `int`  C) `str`  D) `NoneType`
 
 **2.** (Code Tracing) What prints?
 ```python
