@@ -13,7 +13,7 @@ x = 10
 print(type(x))
 ```
 
-   `Answer:` _______________________
+   `Answer:` hello
 
 2. What scalar type would best represent:
    - A person's name: _______
