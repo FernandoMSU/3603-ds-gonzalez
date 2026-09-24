@@ -16,10 +16,11 @@ Try every question on your own first — the Answer Key is at the bottom, no pee
 x = 10
 print(type(x))
 ```
-**Answer: 'int'>**
+**Answer: < class 'int'>**
 
 **3.** (Short Answer) What scalar type would best represent: a person's name, their age, and whether they passed a test?
 **Answer:str for name, int for age, and bool for whether they passed.**
+
 **4.** (Code Tracing) What prints?
 ```python
 print(int('21') + 1)
@@ -37,11 +38,13 @@ print(int('21') + 1)
 print(17 // 5)
 ```
 **Answer: 3**
+
 **7.** (Code Tracing) What prints?
 ```python
 print(17 % 5)
 ```
 **Answer: 2**
+
 **8.** (Multiple Choice) Which operator raises a number to a power?
 A) `^`  **B) `**`**  C) `//`  D) `%%`
 
@@ -57,14 +60,17 @@ x = 7
 print(x >= 7 and x < 10)
 ```
 **Answer: True**
+
 **11.** (Short Answer) What does the `not` operator do to a boolean expression?
 **Answer: It flips the Boolean value. not True becomes False, and not False becomes True.**
+
 **12.** (Fill in the Blank) What operator belongs in the blank to check for equality?
 ```python
 if score ___ 100:
     print("Perfect score!")
 ```
 **Answer: ==**
+
 **13.** (Multiple Choice) Which keyword adds an additional condition after an initial `if`?
 A) `else`  B) `elseif`  **C) `elif`**  D) `when`
 
@@ -74,8 +80,10 @@ score = 85
 print(0 <= score <= 100)
 ```
 **Answer: True**
+
 **15.** (True/False) Python uses indentation (whitespace) to define code blocks — it's not just a style choice.
 **Answer: True**
+
 **16.** (Short Answer) `and` requires every condition to be True to return True. What does `or` require?
 **Answer: or requires at least one condition to be True.**
 ---
@@ -90,15 +98,19 @@ else:
     status = 'minor'
 ```
 **Answer: status = 'adult' if age >= 18 else 'minor'**
+
 **18.** (Short Answer) Why is comparing two floats with `==` risky? Give an example.
 **Answer: Floats are stored in binary, so some decimal values cannot be represented exactly.**
+
 **19.** (Short Answer) What two keywords did Python 3.10 add for structural pattern matching?
 **Answer: match and case**
+
 **20.** (Code Tracing) What prints?
 ```python
 print('A' <= 'B' <= 'C')
 ```
 **Answer: True**
+
 **21.** (Code Tracing) What prints (both words, on one line)?
 ```python
 balance = 500
@@ -112,6 +124,7 @@ else:
 print(tier, perk)
 ```
 **Answer: Standard No perks yet**
+
 **22.** (Short Answer, C++ Comparison) In C++, `0 <= score <= 100` compiles without any error, but doesn't check what you'd think. If `score = 150`, what does this condition actually evaluate to, and why?
 **Answer: It evaluates to true. C++ first evaluates 0 <= score, which becomes true (1). It then checks 1 <=, which is also true. The correct C++ condition would be: 0 <= score && score <= 100**
 ---
